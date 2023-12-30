@@ -1,0 +1,62 @@
+.buyer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4cb9e7;
+  height: 960px;
+
+  .container {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+    width: 720px;
+    height: 750px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 20px 17px 48px 0px rgba(0, 0, 0, 0.3);
+
+    h1 {
+      width: max-content;
+      margin-bottom: 30px;
+      color: gray;
+      font-weight: 300;
+    }
+
+    .sections {
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+
+      label {
+        color: gray;
+        font-size: 18px;
+      }
+
+      .info,
+      .details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+
+        input,
+        select,
+        textarea {
+          padding: 20px;
+        }
+
+        button {
+          border: none;
+          padding: 20px;
+          color: white;
+          font-weight: 500;
+          font-size: 18px;
+          background-color: #4cb9e7;
+          cursor: pointer;
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+}
